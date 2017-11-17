@@ -740,6 +740,9 @@ footer {
 
 @media all and (max-width: 1200px) and (min-width: 992px) {
 
+	.logo-text{
+		font-size: 2em;
+	}
 	.services {
 		max-width: 293px;
 		height: 213px;
@@ -759,6 +762,9 @@ footer {
 
 @media all and (max-width: 991px) and (min-width: 768px) {
 
+	.logo-text{
+		font-size: 2em;
+	}
 	.services {
 		max-width: 293px;
 		height: 293px;
@@ -777,6 +783,10 @@ footer {
 
 @media all and (max-width: 991px) {
 
+	.logo-text{
+		font-size: 2em;
+	}
+
 	header{
 		background: url(../images/bg-small.jpg) no-repeat;
 		background-size: cover;
@@ -786,6 +796,10 @@ footer {
 }
 
 @media all and (max-width: 768px) {
+
+	.logo-text{
+		font-size: 2em;
+	}
 	.services {
 		max-width: 293px;
 		height: 293px;
@@ -826,7 +840,7 @@ footer {
 
 
 	.logo-text {
-	    font-size: 2em;
+	    font-size: 1em;
 	}
 	.centered p {
 	    font-size: 1em;
