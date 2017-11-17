@@ -31,6 +31,59 @@ Text Domain: darkjoe
 //  01 - Universal
 /////////////////////////////////////////////////////////////////////*/
 
+/* === section works === */
+
+#works h4 {
+	margin-bottom:20px;
+}
+
+#portfolio {
+	padding-bottom: 0;
+}
+/* === portfolio filter === */
+
+#filters {
+	margin-bottom: 0px;
+	text-align: center;
+	display: block;
+	float: none;
+	z-index: 2;
+	position: relative;
+}
+#filters ul {
+	margin: 0 0 20px;
+	list-style: none;
+	padding: 0;
+}
+#filters ul li {
+	display: inline-block;
+}
+#filters ul li a {
+	display: block;
+	float: left;
+	padding: 2px 5px;
+	color: inherit;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	font-weight: 600;
+}
+#filters ul li a:hover,#filters ul li a:focus {
+	text-decoration:none;
+	outline:0;
+}
+#filters ul li a h5 {
+	font-size: 14px;
+	padding: 5px 10px 5px;
+	border: 2px solid #bf2525;
+}
+
+#filters ul li a:hover h5, #filters ul li a.active h5 {
+	color:#fcfcfc;
+}
+
+
+
+
 html, body {
     height:100%;
 }
@@ -38,14 +91,14 @@ html, body {
 body {
 	font-family: 'Lato', sans-serif;
 }
-h1,h2,h3,h4,h5,h6 {
+/*h1,h2,h3,h4,h5,h6 {
 	font-family: 'Dosis', sans-serif;
-}
-a {
+}*/
+/*a {
 	color: #e66f69;
 	transition: 0.4s ease all;
 	outline: none;
-}
+}*/
 a:hover,a:active,a:focus{
 	text-decoration: none;
 	color: #e66f69;
@@ -260,7 +313,92 @@ header{
 
 
 /* /////////////////////////////////////////////////////////////////////
-//  05 - Portfolio
+//  05 - Procedures
+/////////////////////////////////////////////////////////////////////*/
+.services-section{
+	margin-bottom: 10%;
+}
+
+#services-title{
+	margin-bottom: 3%;
+	/*margin-left: 41%;*/
+	text-align: center;
+	font-size: 4em;
+}
+
+#services-description{
+	text-align: center;
+	font-size: 19px;
+	margin-bottom: 9%;
+}
+
+#services {
+  background: #fff;
+  background-size: cover;
+  padding: 80px 0 60px 0;
+}
+
+#services .box {
+  padding: 50px 20px;
+  margin-bottom: 50px;
+  text-align: center;
+  border: 1px solid #e6e6e6;
+  height: 200px;
+  position: relative;
+  background: #fafafa;
+}
+
+#services .icon {
+  position: absolute;
+  top: -36px;
+  left: calc(50% - 36px);
+  transition: 0.2s;
+  border-radius: 50%;
+  display: inline-block;
+  border: 6px solid #fff;
+}
+
+#services .icon a {
+  display: inline-block;
+  background: #2dc997;
+  border: 2px solid #2dc997;
+  padding: 16px;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+#services .icon i {
+  color: #fff;
+  font-size: 24px;
+}
+
+#services .box:hover .icon i {
+  color: #2dc997;
+}
+
+#services .box:hover .icon a {
+  color: #2dc997;
+  background: #fff;
+}
+
+#services .title {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+#services .title a {
+  color: #111;
+}
+
+#services .description {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/* /////////////////////////////////////////////////////////////////////
+//  06 - Portfolio
 /////////////////////////////////////////////////////////////////////*/
 
 
@@ -399,7 +537,7 @@ header{
 }
 
 /* /////////////////////////////////////////////////////////////////////
-//  06 - Testimonial
+//  07 - Testimonial
 /////////////////////////////////////////////////////////////////////*/
 
 #testimonial {
@@ -433,7 +571,7 @@ header{
 
 
 /* /////////////////////////////////////////////////////////////////////
-//  07 - Contact
+//  08 - Contact
 /////////////////////////////////////////////////////////////////////*/
 
 
