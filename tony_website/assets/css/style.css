@@ -152,7 +152,7 @@ a:hover,a:active,a:focus{
 }
 
 header{
-	background-image: url(../images/OE9U8F0.jpg);
+	background-image: url(../images/office-back-min.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -408,7 +408,7 @@ header{
 
 .port {
 	list-style: none;
-	text-align: left;
+	text-align: center;
 	padding-bottom: 40px;
 }
 
@@ -507,7 +507,7 @@ header{
 .cs-style-3 figcaption a {
 	position: absolute;
 	bottom: 10px;
-	right: 10px;
+	right: 25%;
 }
 .button{
 	background: transparent;
@@ -851,6 +851,9 @@ footer {
 
 @media all and (max-width: 1200px) and (min-width: 992px) {
 
+	.logo-text{
+		font-size: 2em;
+	}
 	.services {
 		max-width: 293px;
 		height: 213px;
@@ -870,6 +873,9 @@ footer {
 
 @media all and (max-width: 991px) and (min-width: 768px) {
 
+	.logo-text{
+		font-size: 2em;
+	}
 	.services {
 		max-width: 293px;
 		height: 293px;
@@ -888,15 +894,23 @@ footer {
 
 @media all and (max-width: 991px) {
 
+	.logo-text{
+		font-size: 2em;
+	}
+
 	header{
-		background: url(../images/bg-small.jpg) no-repeat;
+		background: url(../images/office-back-min.jpg) no-repeat;
 		background-size: cover;
 		background-attachment: fixed;
-		background-position: 50% -50px;
+		background-position: 50%;
 	}
 }
 
 @media all and (max-width: 768px) {
+
+	.logo-text{
+		font-size: 2em;
+	}
 	.services {
 		max-width: 293px;
 		height: 293px;
@@ -937,7 +951,7 @@ footer {
 
 
 	.logo-text {
-	    font-size: 2em;
+	    font-size: 1em;
 	}
 	.centered p {
 	    font-size: 1em;
