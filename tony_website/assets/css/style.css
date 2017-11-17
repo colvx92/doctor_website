@@ -152,7 +152,7 @@ a:hover,a:active,a:focus{
 }
 
 header{
-	background-image: url(../images/office-back-min.jpg);
+	background-image: url(../images/head-img.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -899,7 +899,7 @@ footer {
 	}
 
 	header{
-		background: url(../images/office-back-min.jpg) no-repeat;
+		background: url(../images/head-img.jpg) no-repeat;
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: 50%;
