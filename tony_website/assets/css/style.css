@@ -360,8 +360,8 @@ header{
 
 #services .icon a {
   display: inline-block;
-  background: #2dc997;
-  border: 2px solid #2dc997;
+  background: #337AF5; /*heeeeeeeeeeeeeeeeee*/
+  border: 2px solid #337AF5;
   padding: 16px;
   border-radius: 50%;
   transition: 0.3s;
@@ -373,11 +373,11 @@ header{
 }
 
 #services .box:hover .icon i {
-  color: #2dc997;
+  color: #337AF5;
 }
 
 #services .box:hover .icon a {
-  color: #2dc997;
+  color: purple;
   background: #fff;
 }
 
