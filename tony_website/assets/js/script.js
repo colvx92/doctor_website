@@ -172,8 +172,10 @@ function animationHover(element, animation){
 
     var myLat = new google.maps.LatLng(25.832093, -80.209718);
     var cent = new google.maps.LatLng(25.831884, -80.175826);
+
+    var tempCent = new google.maps.LatLng(25.860813, -80.191181);
     var mapProp = {
-      center:cent,
+      center:tempCent,
       zoom:13,
       mapTypeId:google.maps.MapTypeId.ROADMAP,
       disableDefaultUI: true,
