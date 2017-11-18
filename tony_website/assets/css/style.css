@@ -300,17 +300,15 @@ header{
 //  04 - Services
 /////////////////////////////////////////////////////////////////////*/
 
-
-
 .services {
     max-width: 293px;
-    height: 263px;
+    max-height: 263px;
 }
 .exp{
 	padding-top: 76px;
 }
 .service-area {
-    margin: 80px 0px -85px 0px;
+    margin: 200px 0px -85px 0px;
 }
 
 .service-wrap {
@@ -321,6 +319,7 @@ header{
     display: block;
     border-radius: 50%;
 }
+
 .service-wrap i {
     margin-top: 40px;
     transition: all 0.3s ease;
