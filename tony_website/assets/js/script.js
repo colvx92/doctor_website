@@ -170,13 +170,14 @@ function animationHover(element, animation){
   function initialize()
   {
 
-    var myLat = new google.maps.LatLng(25.832093, -80.209718);
-    var cent = new google.maps.LatLng(25.831884, -80.175826);
+    var location1 = new google.maps.LatLng(25.773734, -80.255892);
+    var location2 = new google.maps.LatLng(25.832104, -80.209757);
+    // var cent = new google.maps.LatLng(25.831884, -80.175826);
 
-    var tempCent = new google.maps.LatLng(25.860813, -80.191181);
+    var tempCent = new google.maps.LatLng(25.875219, -80.190765);
     var mapProp = {
       center:tempCent,
-      zoom:13,
+      zoom:12,
       mapTypeId:google.maps.MapTypeId.ROADMAP,
       disableDefaultUI: true,
       scrollwheel: false
@@ -185,7 +186,13 @@ function animationHover(element, animation){
     ,mapProp);
 
     var marker = new google.maps.Marker({
-      position: myLat,
+      position: location1,
+      map: map,
+      title: 'IMI'
+    });
+
+    var marker2 = new google.maps.Marker({
+      position: location2,
       map: map,
       title: 'IMI'
     });

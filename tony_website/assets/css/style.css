@@ -169,34 +169,43 @@ header{
 }
 .bigheadline {
   color: #292c75;
-	font-family: 'Raleway', sans-serif;
+	/*font-family: 'Roboto Slab', serif;*/
+	font-family: 'Zilla Slab', serif;
+	/*font-family: 'Josefin Slab', serif;*/
 	font-weight: 100;
-	font-size: 10em;
+	font-size: 9em;
 	margin: 0;
 }
 .subheadline {
-	font-family: 'Titillium Web', sans-serif;
+	/*font-family: 'Roboto Slab', serif;*/
+	font-family: 'Zilla Slab', serif;
+	/*font-family: 'Josefin Slab', serif;*/
 	font-weight: 200;
 	font-size: 3em;
 	margin: 0;
-	text-shadow: 0 0 10px white;
+	text-shadow: 0px 3px 0px #738290,
+                 0px 5px 5px #738290,
+                 0px 7px 2px #738290,
+                 0px 9px 20px #738290;
 	color: #292c75;
 }
 
 .subheadline2 {
-	font-family: 'Titillium Web', sans-serif;
+	/*font-family: 'Roboto Slab', serif;*/
+	font-family: 'Zilla Slab', serif;
+	/*font-family: 'Josefin Slab', serif;*/
 	font-weight: 200;
 	font-size: 50px;
 	margin: 0;
 	/*text-shadow: 0 0 10px black;*/
 	/*text-shadow: 2px 2px 0px black;*/
-	text-shadow: 0px 3px 0px #b2a98f,
-                 0px 7px 5px rgba(0,0,0,0.15),
-                 0px 10px 2px rgba(0,0,0,0.1),
-                 0px 15px 20px rgba(0,0,0,0.1);
+	text-shadow: 0px 3px 0px #738290,
+                 0px 5px 5px #738290,
+                 0px 7px 2px #738290,
+                 0px 9px 20px #738290;
 
 
-	color: grey;
+	color: #E8EEF2;
 }
 
 .scrollDown {
@@ -862,7 +871,7 @@ footer {
 		font-size: 3em;
 	}
 	.bigheadline {
-		font-size: 15em;
+		font-size: 9em;
 	}
 	.subheadline {
 		font-size: 5em;
