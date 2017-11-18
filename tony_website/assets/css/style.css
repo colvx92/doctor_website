@@ -124,6 +124,7 @@ a:hover,a:active,a:focus{
     overflow: hidden;
     margin-bottom: 70px;
 }
+
 .block_title:before,.block_title:after {
     content: "";
     background: #ccc;
@@ -296,6 +297,7 @@ header{
 .service-wrap i {
     margin-top: 40px;
     transition: all 0.3s ease;
+		font-size: 40px;
 }
 .service-wrap:hover i {
     color: #e66f69;
@@ -673,11 +675,11 @@ header{
 }
 .carousel-control.right {
   right: 20px;
-	margin-right: -5%;
+	margin-right: -3%;
 }
 .carousel-control.left {
   left: 20px;
-	margin-left: -5%;
+	margin-left: -3%;
 }
 
 
@@ -861,6 +863,7 @@ footer {
 	.service-wrap i {
 	    font-size: 4em;
 	    margin-top: 28px;
+
 	}
 	.service-wrap h3 {
 	    font-size: 1.4em;
