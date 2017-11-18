@@ -24,6 +24,9 @@
   <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
   <!-- zmdi fonts -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+  <!-- animations -->
+  <link rel="stylesheet" href="assets/css/aos-master/dist/aos.css">
+
 
 
 
@@ -32,7 +35,6 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Zilla+Slab" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100" rel="stylesheet">
-  <script src="assets/js/modernizr.js"></script>
 
 </head>
 <body id="body">
@@ -85,11 +87,11 @@
 
   <section id="services" class="service-area">
     <div class="container">
-      <h2 class="block_title">Welcome to <strong>I.M.I.</strong></h2>
+      <h2 class="block_title" data-aos="fade-down">Welcome to <strong>I.M.I.</strong></h2>
       <div class="row">
         <div class="col-md-3 col-sm-6">
           <div class="services">
-            <div class="service-wrap">
+            <div class="service-wrap" data-aos="slide-left">
               <i class="fa fa-check-circle-o" aria-hidden="true"></i>
               <h3>Professionally Credited</h3>
               <p>We are affiliated at:  <strong>Mercy Hospital, North Shore Medical Center, South Miami Hospital</strong></p>
@@ -130,7 +132,7 @@
           <div class="container wow fadeIn">
             <!-- <div class="section-header" id=services-header> -->
             <!-- <div class="services-section"> -->
-            <h2 class="block_title">Services</h2>
+            <h2 class="block_title animated zoomInDown">Services</h2>
             <div class="section-description" id=services-description>We Provide Excellent Care and Treatment In A Variety Of Areas</div>
             <!-- <div class="section-title">Services</div>
             <div class="section-description">We Provide Excellent Care and Treatment In A Variety Of Areas</div> -->
@@ -587,6 +589,8 @@
         <script src="assets/js/owl.carousel.js"></script>
         <script src="assets/js/script.js"></script>
 
+        <script src="assets/js/modernizr.js"></script>
+
         <script src="assets/js/maxim_js/jquery.js"></script>
         <script src="assets/js/maxim_js/jquery.scrollTo.js"></script>
         <script src="assets/js/maxim_js/jquery.nav.js"></script>
@@ -599,6 +603,9 @@
         <script src="assets/js/maxim_js/animate.js"></script>
         <script src="assets/js/maxim_js/custom.js"></script>
         <script src="contactform/contactform.js"></script>
+
+        <script src="assets/css/aos-master/dist/aos.js"></script>
+        <script>AOS.init();</script>
 
       </body>
       </html>
