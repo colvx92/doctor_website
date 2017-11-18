@@ -22,6 +22,9 @@
   <link rel="stylesheet" href="assets/css/animate.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
+  <!-- zmdi fonts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+
 
 
   <!-- google fonts -->
@@ -37,7 +40,7 @@
   <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
 
-  <!-- Header area -->
+<!-- Header area -->
   <header id="header">
     <div class="center text-center">
       <img class="imilogo" src="assets/images/imi_logo.svg" alt="">
@@ -76,7 +79,7 @@
     </div>
   </section>
 
-  <!-- Content Area -->
+<!-- Content Area -->
 
   <!-- Welcome to IMI -->
 
@@ -87,12 +90,11 @@
         <div class="col-md-3 col-sm-6">
           <div class="services">
             <div class="service-wrap">
-              <i class="fa fa-check-circle-o" aria-hidden="true" id="welcome-icons"></i>
+              <i class="fa fa-check-circle-o" aria-hidden="true"></i>
               <h3>Professionally Credited</h3>
               <p>We are affiliated at:  <strong>Mercy Hospital, North Shore Medical Center, South Miami Hospital</strong></p>
             </div>
           </div>
-
         </div>
         <div class="col-md-3 col-sm-6">
           <div class="services">
@@ -136,78 +138,146 @@
             <!-- </div> -->
             <div class="row">
               <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
-                <div class="box">
-                  <div class="icon"><a href=""><i class="fa fa-wheelchair"></i></a></div>
-                  <h4 class="title"><a href="">Geriatric Medicine</a></h4>
-                  <p class="description">We provide a full suite of services specific for our elderly patients</p>
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                  <div class="flipper">
+                    <div class="box">
+                      <div class="icon"><a href=""><i class="fa fa-wheelchair"></i></a></div>
+                      <div class="front">
+                        <h4 class="title"><a href="">Geriatric Medicine</a></h4>
+                      </div>
+                      <div class="back">
+                        <p class="description">We provide a full suite of services specific for our elderly patients</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-                <div class="box">
-                  <div class="icon"><a href=""><i class="fa fa-user-md"></i></a></div>
-                  <h4 class="title"><a href="">General Care</a></h4>
-                  <p class="description">Executive Physicals, Nuclear and Standard Stress Testing, In-house Allergy Testing, Podiatric Services</p>
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                  <div class="flipper">
+                    <div class="box">
+                      <div class="icon"><a href=""><i class="fa fa-user-md"></i></a></div>
+                      <div class="front">
+                        <h4 class="title"><a href="">General Care</a></h4>
+                      </div>
+                      <div class="back">
+                        <p class="description">Executive Physicals, Nuclear and Standard Stress Testing, In-house Allergy Testing, Podiatric Services</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
-                <div class="box">
-                  <div class="icon"><a href=""><i class="fa fa-heart"></i></a></div>
-                  <h4 class="title"><a href="">Pulmonary and Cardiac Treatment</a></h4>
-                  <p class="description">Hypertension Managment, Pulmonary Function Testing, Respiratory treatment(Asthma and Sinus)</p>
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                  <div class="flipper">
+                    <div class="box">
+                      <div class="icon"><a href=""><i class="fa fa-heart"></i></a></div>
+                      <div class="front">
+                        <h4 class="title"><a href="">Pulmonary and Cardiac Treatment</a></h4>
+                      </div>
+                      <div class="back">
+                        <p class="description">Hypertension Managment, Pulmonary Function Testing, Respiratory treatment(Asthma and Sinus)</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                <div class="box">
-                  <div class="icon"><a href=""><i class="fa fa-tint"></i></a></div>
-                  <h4 class="title"><a href="">Diabetic and Weight-loss Management</a></h4>
-                  <p class="description">Kidney Disease Treatment, Weight Loss Management</p>
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                  <div class="flipper">
+                    <div class="box">
+                      <div class="icon"><a href=""><i class="fa fa-tint"></i></a></div>
+                      <div class="front">
+                        <h4 class="title"><a href="">Diabetic and Weight-loss Management</a></h4>
+                      </div>
+                      <div class="back">
+                        <p class="description">Kidney Disease Treatment, Weight Loss Management</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-                <div class="box">
-                  <div class="icon"><a href=""><i class="fa fa-bar-chart"></i></a></div>
-                  <h4 class="title"><a href="">Labs</a></h4>
-                  <p class="description">In-house Advanced Laboratory Screening</p>
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                  <div class="flipper">
+                    <div class="box">
+                      <div class="icon"><a href=""><i class="fa fa-bar-chart"></i></a></div>
+                      <div class="front">
+                        <h4 class="title"><a href="">Labs</a></h4>
+                      </div>
+                      <div class="back">
+                        <p class="description">In-house Advanced Laboratory Screening</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
-                <div class="box">
-                  <div class="icon"><a href=""><i class="fa fa-camera"></i></a></div>
-                  <h4 class="title"><a href="">Imaging Services</a></h4>
-                  <p class="description">General Radiology, Advanced Diagnostic Imaging, Carotid / Vascular / Cardiac Ultrasound</p>
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                  <div class="flipper">
+                    <div class="box">
+                      <div class="icon"><a href=""><i class="fa fa-camera"></i></a></div>
+                      <div class="front">
+                        <h4 class="title"><a href="">Imaging Services</a></h4>
+                      </div>
+                      <div class="back">
+                        <p class="description">General Radiology, Advanced Diagnostic Imaging, Carotid / Vascular / Cardiac Ultrasound</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                <div class="box">
-                  <div class="icon"><a href=""><i class="fa fa-hospital-o" aria-hidden="true"></i></a></div>
-                  <h4 class="title"><a href="">Hospital Medicine</a></h4>
-                  <p class="description">Specialized care from admission until discharge in acute care setting</p>
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                  <div class="flipper">
+                    <div class="box">
+                      <div class="icon"><a href=""><i class="fa fa-hospital-o" aria-hidden="true"></i></a></div>
+                      <div class="front">
+                        <h4 class="title"><a href="">Hospital Medicine</a></h4>
+                      </div>
+                      <div class="back">
+                        <p class="description">Specialized care from admission until discharge in acute care setting</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-                <div class="box">
-                  <div class="icon"><a href=""><i class="fa fa-bed" aria-hidden="true"></i></a></div>
-                  <h4 class="title"><a href="">Arthritis and Pain Management</a></h4>
-                  <p class="description">Specialized care for Neck and Back pain, Neuropathies, Arm and Leg pain from Radiculopathies, Spinal Stenosis</p>
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                  <div class="flipper">
+                    <div class="box">
+                      <div class="icon"><a href=""><i class="fa fa-bed" aria-hidden="true"></i></a></div>
+                      <div class="front">
+                        <h4 class="title"><a href="">Arthritis and Pain Management</a></h4>
+                      </div>
+                      <div class="back">
+                        <p class="description">Specialized care for Neck and Back pain, Neuropathies, Arm and Leg pain from Radiculopathies, Spinal Stenosis</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
-                <div class="box">
-                  <div class="icon"><a href=""><i class="fa fa-steam" aria-hidden="true"></i></a></div>
-                  <h4 class="title"><a href="">Podiatric Services</a></h4>
-                  <p class="description">Comprehensive care of foot and ankle disorders, Non-surgical and surgical treatment of athletic injuries, Diabetic footcare and prevention</p>
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                  <div class="flipper">
+                    <div class="box">
+                      <div class="icon"><a href=""><i class="fa fa-steam" aria-hidden="true"></i></a></div>
+                      <div class="front">
+                        <h4 class="title"><a href="">Podiatric Services</a></h4>
+                      </div>
+                      <div class="back">
+                        <p class="description">Comprehensive care of foot and ankle disorders, Non-surgical treatment of athletic injuries, Diabetic footcare and prevention</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-
           </div>
         </section>
 
   <!-- Testimonial Area -->
   <section id="testimonial" class="home-section paddingbot-60 parallax" data-stellar-background-ratio="0.5">
     <h2 class="block_title">Patient Testimonials</h2>
-
-
     <div class="carousel-reviews broun-block">
       <div class="container">
         <div class="row">
@@ -286,7 +356,7 @@
                 <div class="col-md-4 col-sm-6 hidden-xs">
                   <div class="block-text rel zmin">
                     <a title="">High Quality Care</a>
-                    <p id="patient-name">Alex Moren</p>
+                    <p id="patient-name">Alesandra Shapiro</p>
                     <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star-empty"></span>
                       <span
                         data-value="3" class="glyphicon glyphicon-star-empty"></span><span data-value="4" class="glyphicon glyphicon-star-empty"></span><span data-value="5" class="glyphicon glyphicon-star-empty"></span> </span>
@@ -307,7 +377,7 @@
                     <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3"
                         class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star"></span><span data-value="5" class="glyphicon glyphicon-star"></span> </span>
                     </div>
-                    <p>Doctor Abbassi is the most respectable and caring physician I have ever had. He has gone above and beyond his duties as a physician and truly treats his patients as family.</p>
+                    <p>Dr. Abbassi is the most respectable and caring physician I have ever had. He has gone above and beyond his duties as a physician and truly treats his patients as family.</p>
                     <ins class="ab zmin sprite sprite-i-triangle block"></ins>
                   </div>
                   <!-- <div class="person-text rel text-light">
@@ -506,7 +576,7 @@
               </div>
             </div>
           </div>
-        </footer>
+  </footer>
 
         <!-- Necessery scripts -->
         <script src="assets/js/jquery-2.1.3.min.js"></script>
