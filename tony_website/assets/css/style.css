@@ -433,6 +433,7 @@ header{
 	.flip-container, .front, .back {
 	width: 320px;
 	height: 267px;
+	margin: auto;
 }
 
 .flipper {
@@ -544,6 +545,7 @@ header{
 
 .cs-style-3 figure {
 	overflow: hidden;
+	margin: auto;
 }
 
 .cs-style-3 figure img {
@@ -991,6 +993,10 @@ footer {
 
 	.logo-text{
 		font-size: 2em;
+	}
+
+	#last-insurance-row{
+		margin-left: 0%;
 	}
 
 	header{
