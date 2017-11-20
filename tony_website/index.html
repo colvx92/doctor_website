@@ -163,7 +163,7 @@
                         <h4 class="title"><a href="">General Care</a></h4>
                       </div>
                       <div class="back">
-                        <p class="description">Executive Physicals, Nuclear and Standard Stress Testing, In-house Allergy Testing, Podiatric Services</p>
+                        <p class="description">Executive Physicals, Vision and Hearing tests, EKG, In-house Allergy Testing</p>
                       </div>
                     </div>
                   </div>
@@ -193,7 +193,7 @@
                         <h4 class="title"><a href="">Diabetic and Weight-loss Management</a></h4>
                       </div>
                       <div class="back">
-                        <p class="description">Kidney Disease Treatment, Weight Loss Management</p>
+                        <p class="description">Diabetes Screening, Kidney Disease Treatment, Nutrition Management</p>
                       </div>
                     </div>
                   </div>
@@ -208,7 +208,7 @@
                         <h4 class="title"><a href="">Labs</a></h4>
                       </div>
                       <div class="back">
-                        <p class="description">In-house Advanced Laboratory Screening</p>
+                        <p class="description">In-house Advanced Laboratory Screening, Immune System Health, Thyroid Screening, Liver Analysis</p>
                       </div>
                     </div>
                   </div>
@@ -223,7 +223,7 @@
                         <h4 class="title"><a href="">Imaging Services</a></h4>
                       </div>
                       <div class="back">
-                        <p class="description">General Radiology, Advanced Diagnostic Imaging, Carotid / Vascular / Cardiac Ultrasound</p>
+                        <p class="description">General Radiology, Advanced Diagnostic Imaging, Nuclear and Standard Stress Testing, Carotid / Vascular / Cardiac Ultrasound</p>
                       </div>
                     </div>
                   </div>
@@ -238,7 +238,7 @@
                         <h4 class="title"><a href="">Hospital Medicine</a></h4>
                       </div>
                       <div class="back">
-                        <p class="description">Specialized care from admission until discharge in acute care setting</p>
+                        <p class="description">Specialized care from admission until discharge in acute care hospital setting</p>
                       </div>
                     </div>
                   </div>
@@ -508,14 +508,14 @@
           <div id="googleMap" style="width:100%;"></div>
           <div id="contact-area">
             <div class="container">
-              <h2 class="block_title" data-aos="fade-down">Get in contact</h2>
+              <h2 class="block_title" data-aos="fade-down">Get in Touch</h2>
               <div class="row">
                 <div class="col-xs-12">
                 </div>
                 <div class="col-sm-6">
                   <div class="moreDetails">
                     <h2 class="con-title">More About Us</h2>
-                    <p> Dr. Tony Abbassi has been practicing Internal Medicine and Hospital Medicine for more than fifteen years in acute hospital care settings, Inpatient, and Outpatient . Board Certified in Internal Medicine while affiliated at Mercy Hospital, North Shore Medical Center and South Miami Hospital.
+                    <p> Dr. Tony Abbassi has been practicing Internal Medicine and Hospital Medicine for more than fifteen years in acute hospital care settings, Inpatient, and Outpatient . Board Certified in Internal Medicine with affiliations at Mercy Hospital, North Shore Medical Center and South Miami Hospital.
 
                       <br><br>We provide immediate care for hundreds of patients each year as well as follow up treatment.</p>
                     <ul class="address">
@@ -529,19 +529,25 @@
                   </div>
                 </div>
                 <div class="col-sm-6">
-                  <h2 class="con-title">Drop us a line</h2>
-                  <form role="form">
-                    <div class="form-group">
-                      <input type="text" class="form-control" id="user_name" placeholder="Enter your name">
-                    </div>
-                    <div class="form-group">
-                      <input type="email" class="form-control" id="your_email" placeholder="Enter your email">
-                    </div>
-                    <div class="form-group">
-                      <textarea name="InputMessage" id="user_message" class="form-control" rows="5" required></textarea>
-                    </div>
+                  <h2 class="con-title">Contact Us</h2>
 
-                    <button type="submit" class="btn medium">Let us know</button>
+                  <form name="contact-form" id="gform" method="post" action="https://script.google.com/macros/s/AKfycbzHt9LwjqyCaqjSPRokL1bnx32AJj2oe_N9wGrWGFtMwoLAUII4/exec">
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="user_name" placeholder="Enter your name" name="name">
+                    </div>
+                    <!-- HONEYPOT SPAM PREVENTION -->
+                    <!-- <label class="sr-only">Keep this field blank</label>
+                    <input id="honeypot" type="text" name="honeypot" value="" /> -->
+                    <div class="form-group">
+                      <input type="email" class="form-control" id="your_email" placeholder="Enter your email" name="email">
+                    </div>
+                    <div class="form-group">
+                      <textarea name="InputMessage" id="user_message" class="form-control" name="message" rows="5" required></textarea>
+                    </div>
+                      <div class="popup" onclick="popupFunction()">
+                        <button id="btnsubmit" value="Submit" type="submit" class="btn medium" onclick="setTimeout(submitForm, 1000)">Let us know</button>
+                        <span class="popuptext" id="myPopup">Message Successfully Sent!</span>
+                      </div>
                   </form>
                 </div>
               </div>
@@ -606,6 +612,11 @@
 
         <script src="assets/css/aos-master/dist/aos.js"></script>
         <script>AOS.init();</script>
+        <script src="assets/js/form_handler.js" charset="utf-8"></script>
+
+        <!-- <script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script> -->
+        <!-- <script src="js/form-submission-handler.js" charset="utf-8"></script> -->
+
 
       </body>
       </html>
