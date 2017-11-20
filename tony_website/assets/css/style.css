@@ -847,6 +847,16 @@ header{
     color: #FFF;
 }
 
+.address-spacing{
+	float:left;
+	padding-right:4em
+}
+
+.mobile-spacing{
+	float:left;
+	padding-right:5.3em
+}
+
 /*Social media links*/
 
 #social {
