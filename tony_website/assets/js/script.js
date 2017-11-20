@@ -164,6 +164,26 @@ function animationHover(element, animation){
 
 
   ///////////////////////////////
+  // Contact Us
+  ///////////////////////////////
+
+  // When the user clicks on <div>, open the popup
+function popupFunction() {
+    var popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
+}
+
+// Form reset
+function submitForm(){
+  var frm = document.getElementsByName('contact-form')[0];
+  // frm.submit();
+  frm.reset();
+  return false;
+}
+
+
+
+  ///////////////////////////////
   // google map
   ///////////////////////////////
 
