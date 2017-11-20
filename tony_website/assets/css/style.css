@@ -825,10 +825,16 @@ header{
     padding: 10px 0px 0px 0px;
 }
 .address li {
+		display:inline-block;
+		vertical-align: top;
+		width: 49%;
     font-size: 1.1em;
     position: relative;
     margin-bottom: 3%;
 }
+
+
+
 .address li i {
     font-size: 20px;
     position: absolute;
@@ -858,7 +864,7 @@ header{
 
 .mobile-spacing{
 	float:left;
-	padding-right:5.3em
+	margin-right:5.3em
 }
 
 /*Social media links*/
