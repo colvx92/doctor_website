@@ -210,7 +210,7 @@ header{
 
 .scrollDown {
     font-size: 4em;
-    color: rgba(255, 255, 255, 0.4);
+    color: #337ab7;
     position: absolute;
     bottom: 10%;
     left: 49%;
@@ -400,8 +400,8 @@ header{
 
 #services .icon a {
   display: inline-block;
-  background: #337AF5; /*heeeeeeeeeeeeeeeeee*/
-  border: 2px solid #337AF5;
+  background: #337AF5;
+  border: 2px solid #337AF4;
   padding: 16px;
   border-radius: 50%;
   transition: 0.3s;
@@ -417,7 +417,6 @@ header{
 }
 
 #services .box:hover .icon a {
-  color: purple;
   background: #fff;
 }
 
@@ -550,8 +549,8 @@ header{
 }
 
 .cs-style-3 figure img {
-	-webkit-transition: -webkit-transform 0.4s;
-	-moz-transition: -moz-transform 0.4s;
+	--webkit-transition: -webkit-transform 0.4s;
+	--moz-transition: -moz-transform 0.4s;
 	transition: transform 0.4s;
 }
 
@@ -643,7 +642,7 @@ header{
 }
 
 .carousel-control.left,.carousel-control.right  {background:none;width:25px; z-index: 999;}
-.carousel-control.left {top:left:-25px;}
+.carousel-control.left {top:0; left:-25px;}
 .carousel-control.right {right:-25px;}
 
 .block-text {
