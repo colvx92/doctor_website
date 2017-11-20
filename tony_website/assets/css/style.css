@@ -18,11 +18,12 @@ Text Domain: darkjoe
 * 02.0 - Header
 * 03.0 - Navigation
 * 04.0 - Services
-* 05.0 - Portfolio
-* 06.0 - Testimonial
-* 07.0 - Contact
-* 08.0 - Footer
-* 09.0 - Responsive Fixes
+* 05.0 - Procedures
+* 06.0 - Portfolio
+* 07.0 - Testimonial
+* 08.0 - Contact
+* 09.0 - Footer
+* 10.0 - Responsive Fixes
 * -----------------------------------------------------------------------------
 */
 
@@ -195,13 +196,14 @@ header{
 	font-family: 'Zilla Slab', serif;
 	/*font-family: 'Josefin Slab', serif;*/
 	font-weight: 200;
-	font-size: 50px;
+	font-size: 55px;
 	margin: 0;
+	margin-top: 4%;
 	/*text-shadow: 0 0 10px black;*/
 	/*text-shadow: 2px 2px 0px black;*/
-	text-shadow: 0px 3px 0px #738290,
+	text-shadow: 0px 3px 0px #bd5929,
                  0px 5px 5px #738290,
-                 0px 7px 2px #738290,
+                 0px 7px 2px #bd5929,
                  0px 9px 20px #738290;
 
 
@@ -974,7 +976,7 @@ header{
 
 
 /* /////////////////////////////////////////////////////////////////////
-//  08 - Footer
+//  09 - Footer
 /////////////////////////////////////////////////////////////////////*/
 
 
@@ -1001,7 +1003,7 @@ footer {
 
 
 /* /////////////////////////////////////////////////////////////////////
-//  09 - Responsive Fixes
+//  10 - Responsive Fixes
 /////////////////////////////////////////////////////////////////////*/
 
 
@@ -1134,7 +1136,7 @@ footer {
 	    font-size: 4em;
 	}
 	.subheadline {
-	    font-family: 'Titillium Web',sans-serif;
+	    font-family: 'Zilla Slab', serif;
 	    font-size: 1.5em;
 	    font-weight: 200;
 	    margin: 0;
@@ -1154,5 +1156,6 @@ footer {
 	.scrollDown {
 	    top: 70%;
 	    left: 44%;
+			margin-top: 20%
 	}
 }
