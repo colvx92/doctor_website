@@ -131,12 +131,12 @@ function animationHover(element, animation){
   function scroll() {
     if ($(window).scrollTop() >= origOffsetY) {
       $('#navigation').addClass('nav-wrap');
-      // $('#services').addClass('exp');
-      //$('.content').addClass('menu-padding');
+      $('#services').addClass('exp');
+      // $('.content').addClass('menu-padding');
     } else {
       $('#navigation').removeClass('nav-wrap');
-      // $('#services').removeClass('exp');
-      //$('.content').removeClass('menu-padding');
+      $('#services').removeClass('exp');
+      // $('.content').removeClass('menu-padding');
     }
 
 
